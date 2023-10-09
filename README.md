@@ -25,12 +25,15 @@ In the example below: `UdS` would be Group **#5**
 - Enter your username
 - Click "Delete all account details"
 
-Alternatively, you can search "NowConnect" in **Keychain Access** app of your macOS device and delete them manually.
+Alternatively, you can search `NowConnect` in **Keychain Access** app of your macOS device and delete them manually.
 
 ## Installation
 - Download the latest .dmg file from the releases and drag the app icon into the Applications folder.
 
 - Alternatively, you can run the project with Xcode.
+
+## Things to keep in mind
+**NowConnect** depends on the CLI of **Cisco Secure Client VPN**. If the CLI changes in any way, this app would break.
 
 ## Credits
 [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
