@@ -37,7 +37,8 @@ Alternatively, you can search `NowConnect` in **Keychain Access** app of your ma
 **NowConnect** depends on the CLI of **Cisco Secure Client VPN**. If the CLI changes in any way, this app would break.
 
 ## Credits
-[KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
-Logo and icons by: [bevkcan](https://bevkcan.xyz/bevkcan/)
+- [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
+
+- Logo and icons by: [bevkcan](https://bevkcan.xyz/bevkcan/)
 
 
