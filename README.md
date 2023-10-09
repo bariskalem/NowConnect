@@ -28,7 +28,7 @@ In the example below: `UdS` would be Group **#5**
 Alternatively, you can search `NowConnect` in **Keychain Access** app of your macOS device and delete them manually.
 
 ## Installation
-- Download the latest .dmg file from the releases and drag the app icon into the Applications folder.
+- Download the latest .dmg file from the releases and drag the app icon into the Applications folder. Press **right-click > "Open"** to launch the app for the first time.
 
 - Alternatively, you can run the project with Xcode.
 
