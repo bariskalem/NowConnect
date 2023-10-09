@@ -38,5 +38,6 @@ Alternatively, you can search `NowConnect` in **Keychain Access** app of your ma
 
 ## Credits
 [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
+Logo and icons by: [bevkcan](https://bevkcan.xyz/bevkcan/)
 
 
