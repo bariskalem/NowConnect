@@ -17,7 +17,7 @@ Set up the Group Number in the NowConnect settings. Group numbers in the dropdow
 
 In the example below: `UdS` would be Group **#5**
 
-<img src="NotConnect/Screenshots/Groups.png" height="300" />
+<img src="NowConnect/Screenshots/Groups.png" height="300" />
 
 
 ## How to delete account details?
