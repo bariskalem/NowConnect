@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		671163ED2AD2CFA900FA1A3C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671163EC2AD2CFA900FA1A3C /* SettingsView.swift */; };
 		672F37B32AA229AF00FF8E8B /* NowConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672F37B22AA229AF00FF8E8B /* NowConnectApp.swift */; };
-		672F37B52AA229AF00FF8E8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672F37B42AA229AF00FF8E8B /* ContentView.swift */; };
 		672F37B72AA229AF00FF8E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672F37B62AA229AF00FF8E8B /* Assets.xcassets */; };
 		672F37BA2AA229AF00FF8E8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 672F37B92AA229AF00FF8E8B /* Preview Assets.xcassets */; };
-		672F37C52AA229B000FF8E8B /* NowConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672F37C42AA229B000FF8E8B /* NowConnectTests.swift */; };
-		672F37CF2AA229B000FF8E8B /* NowConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672F37CE2AA229B000FF8E8B /* NowConnectUITests.swift */; };
-		672F37D12AA229B000FF8E8B /* NowConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672F37D02AA229B000FF8E8B /* NowConnectUITestsLaunchTests.swift */; };
+		672F37DF2AA22A0E00FF8E8B /* Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672F37DE2AA22A0E00FF8E8B /* Terminal.swift */; };
+		672F37E12AA2326D00FF8E8B /* VPN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672F37E02AA2326D00FF8E8B /* VPN.swift */; };
+		672F37EB2AA2916100FF8E8B /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 672F37EA2AA2916100FF8E8B /* KeychainAccess */; };
+		672F37ED2AA2917C00FF8E8B /* KeychainAccessVPN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672F37EC2AA2917C00FF8E8B /* KeychainAccessVPN.swift */; };
+		6742FA862AD19070007227B3 /* ConnectionStatusType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6742FA852AD19070007227B3 /* ConnectionStatusType.swift */; };
+		676060DF2AD32C7700F3768A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676060DE2AD32C7700F3768A /* AboutView.swift */; };
+		67719D1C2AD2F2310032D4C2 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67719D1B2AD2F2310032D4C2 /* ErrorView.swift */; };
+		677E8C1B2AD1584200C4CEDF /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677E8C1A2AD1584200C4CEDF /* ConnectionView.swift */; };
+		67E7C68A2AA35B5F0060F872 /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7C6892AA35B5F0060F872 /* AppMenu.swift */; };
+		67E7C68D2AA376C00060F872 /* ConnectionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E7C68C2AA376C00060F872 /* ConnectionStatus.swift */; };
+		67F000522AD3358C00CC1557 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F000512AD3358C00CC1557 /* StatusView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		67E7C68B2AA373CA0060F872 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		672F37C12AA229B000FF8E8B /* PBXContainerItemProxy */ = {
@@ -34,17 +56,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		671163EC2AD2CFA900FA1A3C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		672F37AF2AA229AF00FF8E8B /* NowConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NowConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		672F37B22AA229AF00FF8E8B /* NowConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowConnectApp.swift; sourceTree = "<group>"; };
-		672F37B42AA229AF00FF8E8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		672F37B62AA229AF00FF8E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		672F37B92AA229AF00FF8E8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		672F37BB2AA229AF00FF8E8B /* NowConnect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NowConnect.entitlements; sourceTree = "<group>"; };
 		672F37C02AA229B000FF8E8B /* NowConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NowConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		672F37C42AA229B000FF8E8B /* NowConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowConnectTests.swift; sourceTree = "<group>"; };
 		672F37CA2AA229B000FF8E8B /* NowConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NowConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		672F37CE2AA229B000FF8E8B /* NowConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowConnectUITests.swift; sourceTree = "<group>"; };
-		672F37D02AA229B000FF8E8B /* NowConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		672F37DE2AA22A0E00FF8E8B /* Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terminal.swift; sourceTree = "<group>"; };
+		672F37E02AA2326D00FF8E8B /* VPN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPN.swift; sourceTree = "<group>"; };
+		672F37EC2AA2917C00FF8E8B /* KeychainAccessVPN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAccessVPN.swift; sourceTree = "<group>"; };
+		6742FA852AD19070007227B3 /* ConnectionStatusType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionStatusType.swift; sourceTree = "<group>"; };
+		676060DE2AD32C7700F3768A /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		67719D1B2AD2F2310032D4C2 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		677E8C1A2AD1584200C4CEDF /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		67B00A422AA48E000084CE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		67E7C6892AA35B5F0060F872 /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
+		67E7C68C2AA376C00060F872 /* ConnectionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionStatus.swift; sourceTree = "<group>"; };
+		67F000512AD3358C00CC1557 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672F37EB2AA2916100FF8E8B /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				672F37B12AA229AF00FF8E8B /* NowConnect */,
-				672F37C32AA229B000FF8E8B /* NowConnectTests */,
-				672F37CD2AA229B000FF8E8B /* NowConnectUITests */,
 				672F37B02AA229AF00FF8E8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,8 +124,10 @@
 		672F37B12AA229AF00FF8E8B /* NowConnect */ = {
 			isa = PBXGroup;
 			children = (
+				67B00A422AA48E000084CE14 /* Info.plist */,
+				672F37EE2AA29AB100FF8E8B /* Views */,
+				672F37DD2AA229ED00FF8E8B /* Modules */,
 				672F37B22AA229AF00FF8E8B /* NowConnectApp.swift */,
-				672F37B42AA229AF00FF8E8B /* ContentView.swift */,
 				672F37B62AA229AF00FF8E8B /* Assets.xcassets */,
 				672F37BB2AA229AF00FF8E8B /* NowConnect.entitlements */,
 				672F37B82AA229AF00FF8E8B /* Preview Content */,
@@ -112,21 +143,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		672F37C32AA229B000FF8E8B /* NowConnectTests */ = {
+		672F37DD2AA229ED00FF8E8B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				672F37C42AA229B000FF8E8B /* NowConnectTests.swift */,
+				6742FA892AD1914A007227B3 /* Keychain */,
+				6742FA882AD19141007227B3 /* VPN */,
+				6742FA872AD19133007227B3 /* Status */,
 			);
-			path = NowConnectTests;
+			path = Modules;
 			sourceTree = "<group>";
 		};
-		672F37CD2AA229B000FF8E8B /* NowConnectUITests */ = {
+		672F37EE2AA29AB100FF8E8B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				672F37CE2AA229B000FF8E8B /* NowConnectUITests.swift */,
-				672F37D02AA229B000FF8E8B /* NowConnectUITestsLaunchTests.swift */,
+				67E7C6892AA35B5F0060F872 /* AppMenu.swift */,
+				677E8C1A2AD1584200C4CEDF /* ConnectionView.swift */,
+				671163EC2AD2CFA900FA1A3C /* SettingsView.swift */,
+				67719D1B2AD2F2310032D4C2 /* ErrorView.swift */,
+				676060DE2AD32C7700F3768A /* AboutView.swift */,
+				67F000512AD3358C00CC1557 /* StatusView.swift */,
 			);
-			path = NowConnectUITests;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6742FA872AD19133007227B3 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				67E7C68C2AA376C00060F872 /* ConnectionStatus.swift */,
+				6742FA852AD19070007227B3 /* ConnectionStatusType.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		6742FA882AD19141007227B3 /* VPN */ = {
+			isa = PBXGroup;
+			children = (
+				672F37DE2AA22A0E00FF8E8B /* Terminal.swift */,
+				672F37E02AA2326D00FF8E8B /* VPN.swift */,
+			);
+			path = VPN;
+			sourceTree = "<group>";
+		};
+		6742FA892AD1914A007227B3 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				672F37EC2AA2917C00FF8E8B /* KeychainAccessVPN.swift */,
+			);
+			path = Keychain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +204,14 @@
 				672F37AD2AA229AF00FF8E8B /* Resources */,
 			);
 			buildRules = (
+				67E7C68B2AA373CA0060F872 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
 			name = NowConnect;
+			packageProductDependencies = (
+				672F37EA2AA2916100FF8E8B /* KeychainAccess */,
+			);
 			productName = NowConnect;
 			productReference = 672F37AF2AA229AF00FF8E8B /* NowConnect.app */;
 			productType = "com.apple.product-type.application";
@@ -193,7 +260,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					672F37AE2AA229AF00FF8E8B = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -217,6 +284,9 @@
 				Base,
 			);
 			mainGroup = 672F37A62AA229AF00FF8E8B;
+			packageReferences = (
+				672F37E92AA2916100FF8E8B /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 672F37B02AA229AF00FF8E8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +329,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				672F37B52AA229AF00FF8E8B /* ContentView.swift in Sources */,
+				672F37E12AA2326D00FF8E8B /* VPN.swift in Sources */,
+				67E7C68D2AA376C00060F872 /* ConnectionStatus.swift in Sources */,
+				67F000522AD3358C00CC1557 /* StatusView.swift in Sources */,
+				677E8C1B2AD1584200C4CEDF /* ConnectionView.swift in Sources */,
+				676060DF2AD32C7700F3768A /* AboutView.swift in Sources */,
+				672F37DF2AA22A0E00FF8E8B /* Terminal.swift in Sources */,
+				671163ED2AD2CFA900FA1A3C /* SettingsView.swift in Sources */,
+				6742FA862AD19070007227B3 /* ConnectionStatusType.swift in Sources */,
 				672F37B32AA229AF00FF8E8B /* NowConnectApp.swift in Sources */,
+				672F37ED2AA2917C00FF8E8B /* KeychainAccessVPN.swift in Sources */,
+				67719D1C2AD2F2310032D4C2 /* ErrorView.swift in Sources */,
+				67E7C68A2AA35B5F0060F872 /* AppMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +348,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				672F37C52AA229B000FF8E8B /* NowConnectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +355,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				672F37D12AA229B000FF8E8B /* NowConnectUITestsLaunchTests.swift in Sources */,
-				672F37CF2AA229B000FF8E8B /* NowConnectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,9 +407,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -347,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -390,9 +469,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -401,7 +482,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -419,16 +501,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"NowConnect/Preview Content\"";
 				DEVELOPMENT_TEAM = 97Y7T993G5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NowConnect/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = KalApps.NowConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,16 +534,23 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"NowConnect/Preview Content\"";
 				DEVELOPMENT_TEAM = 97Y7T993G5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NowConnect/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = KalApps.NowConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -471,6 +566,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 97Y7T993G5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -490,6 +586,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 97Y7T993G5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -508,6 +605,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 97Y7T993G5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -525,6 +623,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 97Y7T993G5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -576,6 +675,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		672F37E92AA2916100FF8E8B /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		672F37EA2AA2916100FF8E8B /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 672F37E92AA2916100FF8E8B /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 672F37A72AA229AF00FF8E8B /* Project object */;
 }

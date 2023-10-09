@@ -2,16 +2,28 @@
 //  NowConnectApp.swift
 //  NowConnect
 //
-//  Created by Barış Kalem on 01.09.23.
+//  Created by Barış Kalem
 //
 
 import SwiftUI
+import AppKit
 
 @main
 struct NowConnectApp: App {
+    @ObservedObject private var connectionStatus = ConnectionStatus.sharedStatus
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra {
+            AppMenu()
+        } label: {
+            let image: NSImage = {
+                $0.size.height = 16
+                $0.size.width = 16
+                return $0
+            }(NSImage(named: connectionStatus.status == .connected ?
+                      "connected_shield" : "disconnected_shield")!)
+            Image(nsImage: image)
         }
+        .menuBarExtraStyle(.window)
     }
 }
