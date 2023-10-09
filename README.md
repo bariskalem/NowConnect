@@ -1,5 +1,6 @@
 
 # NowConnect
+<img src="NowConnect/Screenshots/NowConnectShield.png" height="150" />
 
 NowConnect is a SwiftUI MenuBarExtra app that maintains Cisco Secure Client VPN account details and provides an interface for connection.
 
