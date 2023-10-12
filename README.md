@@ -2,7 +2,7 @@
 # NowConnect
 <img src="NowConnect/Screenshots/NowConnectShield.png" height="150" />
 
-NowConnect is a SwiftUI MenuBarExtra app that maintains Cisco Secure Client VPN account details and provides an interface for connection.
+NowConnect is a macOS Menu Bar App created with SwiftUI's MenuBarExtra, that maintains **Cisco Secure Client VPN** account details and provides an interface for connection.
 
 ## How to save account details and connect to the VPN?
 
@@ -14,7 +14,7 @@ NowConnect is a SwiftUI MenuBarExtra app that maintains Cisco Secure Client VPN 
 - Make sure `/opt/cisco/secureclient/bin/vpn` exists.
 - Make sure `vpnagentd` is running in the **Activity Monitor**.
 #### If your organization has groups:
-Set up the Group Number in the NowConnect settings. Group numbers in the dropdown list of Cisco Secure Client increase from top to bottom, starting with Group 1 at the top.
+Set up the Group Number in the NowConnect settings. Group numbers in the dropdown list of **Cisco Secure Client** increase from top to bottom, starting with Group 1 at the top.
 
 In the example below: `UdS` would be Group **#5**
 
@@ -34,7 +34,7 @@ Alternatively, you can search `NowConnect` in **Keychain Access** app of your ma
 - Alternatively, you can run the project with Xcode.
 
 ## Things to keep in mind
-**NowConnect** depends on the CLI of **Cisco Secure Client VPN**. If the CLI changes in any way, this app would break.
+**NowConnect** depends on the CLI of **Cisco Secure Client VPN**. If the CLI changes in any way, this app would likely break.
 
 ## Credits
 - [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess)
