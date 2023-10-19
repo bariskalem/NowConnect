@@ -42,7 +42,7 @@ struct AppMenu: View {
                 HStack {
                     Button(action: {
                         isButtonDisabled = true
-                        if stateOfVPN() {
+                        if stateOfVPN() { // TODO: This part is safe, but slow
                             connectionStatus.status = .disconnecting
                             _ = disconnectVPN()
                             NSApplication.shared.terminate(nil)

@@ -25,7 +25,6 @@ struct ConnectionView: View {
                 
                 Text("VPN")
                     .bold()
-//                Spacer().frame(width: 108)
                 Spacer().frame(width: 75)
                 Button(action: {
                     switch self.connectionStatus.status {
@@ -36,7 +35,6 @@ struct ConnectionView: View {
                         connectionStatus.status = .disconnecting
                         if disconnectVPN() {
                             connectionStatus.status = .disconnected
-                            
                         } else {
                             connectionStatus.status = stateOfVPN() ? .connected : .disconnected
                         }
@@ -91,6 +89,10 @@ struct ConnectionView: View {
                 case .disconnected:
                     StatusView(statusInfo: (text: "Disconnected", color: .red))
                 }
+                Button(action: {connectionStatus.status = stateOfVPN() ? .connected : .disconnected }) {
+                    Image(systemName: "arrow.clockwise")
+                }
+                Spacer(minLength: 3.2)
             }
             .padding(.vertical, 0.5)
         }

@@ -1,13 +1,28 @@
 {
   "images" : [
     {
-      "filename" : "connected_shield.svg",
-      "idiom" : "mac",
-      "scale" : "1x"
+      "filename" : "connected_shield_light 1.svg",
+      "idiom" : "mac"
     },
     {
-      "idiom" : "mac",
-      "scale" : "2x"
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "light"
+        }
+      ],
+      "filename" : "connected_shield_light.svg",
+      "idiom" : "mac"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "connected_shield 1.svg",
+      "idiom" : "mac"
     }
   ],
   "info" : {

@@ -11,6 +11,7 @@ import AppKit
 @main
 struct NowConnectApp: App {
     @ObservedObject private var connectionStatus = ConnectionStatus.sharedStatus
+    @Environment(\.colorScheme) var colorScheme
     
     var body: some Scene {
         MenuBarExtra {
@@ -20,8 +21,7 @@ struct NowConnectApp: App {
                 $0.size.height = 16
                 $0.size.width = 16
                 return $0
-            }(NSImage(named: connectionStatus.status == .connected ?
-                      "connected_shield" : "disconnected_shield")!)
+            }(NSImage(named: (connectionStatus.status == .connected ? "connected_shield" : "disconnected_shield"))!)
             Image(nsImage: image)
         }
         .menuBarExtraStyle(.window)

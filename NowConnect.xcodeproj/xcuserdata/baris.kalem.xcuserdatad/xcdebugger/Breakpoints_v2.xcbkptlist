@@ -20,5 +20,68 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADCECD24-4CDC-4E43-9ED4-50F0F69EF7D9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NowConnect/NowConnectApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "NowConnectApp"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "ADCECD24-4CDC-4E43-9ED4-50F0F69EF7D9 - 6b91010e56f661ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NowConnect.NowConnectApp.colorScheme.getter : SwiftUI.ColorScheme"
+                  moduleName = "NowConnect"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baris.kalem/Code/NowConnect/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "ADCECD24-4CDC-4E43-9ED4-50F0F69EF7D9 - dfd3690aeb8fc093"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NowConnect.NowConnectApp.init() -&gt; NowConnect.NowConnectApp"
+                  moduleName = "NowConnect"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baris.kalem/Code/NowConnect/NowConnect/NowConnectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "ADCECD24-4CDC-4E43-9ED4-50F0F69EF7D9 - 9cbe2aa323f9231e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of NowConnect.NowConnectApp.init(colorScheme: SwiftUI.Environment&lt;SwiftUI.ColorScheme&gt;) -&gt; NowConnect.NowConnectApp"
+                  moduleName = "NowConnect"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baris.kalem/Code/NowConnect/NowConnect/NowConnectApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
